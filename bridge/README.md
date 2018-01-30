@@ -9,6 +9,11 @@ tags:
  - Gang Of Four
  - Difficulty-Intermediate
 ---
+## 和adapter模式的区别
+####adapter模式是在有调用端和实现的前提下，基于client调用的是接口（interface），封装实现继承接口，也就是有了水龙头和进水口，需要制作一个接管
+####bridge模式是在有了调用端和桥接实现的前提下，实现不同的逻辑，也就是有了水龙头和接管，自由实现进水口
+前者是将零落的聚合起来，或者是给具体实现留自由度
+
 
 ## Also known as
 Handle/Body
